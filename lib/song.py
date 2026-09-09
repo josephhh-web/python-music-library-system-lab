@@ -46,15 +46,17 @@ class Song:
 
     @classmethod
     def add_to_artists_count(cls, artist):
-        cls.add_to_artist_count(artist)
+        pass
 
-song1 = Song("Sicko Mode", "Travis Scott", "Rap")
-song2 = Song("HOUSTONFORNICATION", "Travis Scott", "Rap")
-song3 = Song("Location", "Dave", "Rap")
-song4 = Song("Get It Together", "702", "R&B")
 
-print(f"Total Songs: {Song.count}")
-print(f"Unique Artists: {Song.artists}")
-print(f"Unique Genres: {Song.genres}")
-print(f"Genre Counts: {Song.genre_count}")
-print(f"Artist Counts: {Song.artist_count}")
+if __name__ == "__main__":
+    song1 = Song("Sicko Mode", "Travis Scott", "Rap")
+    song2 = Song("HOUSTONFORNICATION", "Travis Scott", "Rap")
+    song3 = Song("Location", "Dave", "Rap")
+    song4 = Song("Get It Together", "702", "R&B")
+
+    print(f"Total Songs: {Song.count}")
+    print(f"Unique Artists: {Song.artists}")
+    print(f"Unique Genres: {Song.genres}")
+    print(f"Genre Counts: {Song.genre_count}")
+    print(f"Artist Counts: {Song.artist_count}")
