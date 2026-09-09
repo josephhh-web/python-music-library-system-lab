@@ -48,7 +48,6 @@ class Song:
     def add_to_artists_count(cls, artist):
         cls.add_to_artist_count(artist)
 
-
 song1 = Song("Sicko Mode", "Travis Scott", "Rap")
 song2 = Song("HOUSTONFORNICATION", "Travis Scott", "Rap")
 song3 = Song("Location", "Dave", "Rap")
